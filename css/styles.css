@@ -77,5 +77,26 @@ ul {
   list-style: none;
 }
 
+strong {
+  font-weight: bold;
+}
+
+#character-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  padding: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+#home {
+  cursor: pointer;
+}
+
 
 
